@@ -10,7 +10,7 @@ app.use(cors({ origin: process.env.CLIENT_URL || 'http://localhost:3000', creden
 
 app.use(helmet())
 
-dotenv.config({ path: "./primelendrow_engine/.env" })
+dotenv.config({ path: "./chat_engine/.env" })
 
 app.use(express.json())
 
