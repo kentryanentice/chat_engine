@@ -1,9 +1,10 @@
 {
-  "name": "primelendrow_engine",
+  "name": "chat_engine",
   "version": "1.0.0",
   "main": "engine.js",
   "type": "module",
   "scripts": {
+    "start": "node engine.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
